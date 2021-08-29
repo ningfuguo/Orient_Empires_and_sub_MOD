@@ -1,1301 +1,1119 @@
-﻿
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+﻿task_tongpingzhang_1 = {
+	default_task = yes
+	position = councillor_tongpingzhang
+
+	task_type = task_type_general
+	task_progress = task_progress_infinite
+
+	effect_desc = {
+		desc = task_domestic_affairs_effect_desc
+		triggered_desc = {
+			trigger = {
+				liege = { has_perk = chains_of_loyalty_perk }
+			}
+			desc = task_domestic_affairs_chains_of_loyalty_bonus_desc
+		}
+		triggered_desc = {
+			trigger = {
+				exists = liege.dynasty
+				liege.dynasty = { has_dynasty_perk = erudition_legacy_5 }	
+			}
+			desc = task_domestic_affairs_bureaucrats_bonus_desc
+		}
+		desc = {
+			desc = council_task_possible_side_effects
+			triggered_desc = {
+				trigger = {
+					learning > mediocre_skill_rating
+				}
+				desc = task_increase_control_improved_vassal_opinion
+			}
+			triggered_desc = {
+				trigger = {
+					learning > mediocre_skill_rating
+					liege = {
+						any_vassal = {
+							has_government = feudal_government
+							primary_title.tier > tier_barony
+						}
+					}
+				}
+				desc = task_increase_control_improve_vassal_contract
+			}
+			triggered_desc = {
+				trigger = {
+					learning > mediocre_skill_rating
+				}
+				desc = task_increase_control_end_internal_war
+			}
+			triggered_desc = {
+				trigger = {
+					learning > mediocre_skill_rating
+				}
+				desc = task_increase_control_force_vassal_partition
+			}
+			triggered_desc = {
+				trigger = {
+					learning < high_skill_rating
+				}
+				desc = task_increase_control_lose_vassal_opinion
+			}
+			triggered_desc = {
+				trigger = {
+					learning < high_skill_rating
+					liege = {
+						any_vassal = {
+							has_government = feudal_government
+							primary_title.tier > tier_barony
+						}
+					}
+				}
+				desc = task_increase_control_worsen_contract
+			}
+		}
+	}
+
+	on_start_task = {
+		set_variable = {
+			name = chancellor_domestic_affairs_opinion_value
+			value = 0
+		}
+
+		liege = {
+			add_character_flag = {
+				flag = no_chancellor_side_effects_first_month
+				days = 30
+			}
+		}
+	}
+
+	on_cancel_task = {
+		if = {
+			limit = {
+				is_alive = yes
+				has_variable = chancellor_domestic_affairs_opinion_value
+			}
+			remove_variable = chancellor_domestic_affairs_opinion_value
+		}
+	}
+
+	council_owner_modifier = {
+		name = task_domestic_affairs_opinion_moidifier
+		direct_vassal_opinion = 1
+		scale = chancellor_domestic_affairs_opinion_scale
+	}
+
+	on_monthly = {
+		if = {
+			limit = {
+				liege = { is_ai = no }
+			}
+			if = {
+				limit = {
+					liege = { 
+						has_variable = chancellor_domestic_affairs_opinion_value 
+					}
+				}
+				liege = {
+					if = {
+						limit = {
+							var:chancellor_domestic_affairs_opinion_value < root.chancellor_domestic_affairs_opinion_max
+						}
+						change_variable = {
+							name = chancellor_domestic_affairs_opinion_value
+							add = root.chancellor_domestic_affairs_monthly_increase
+						}
+					}
+					if = {
+						limit = {
+							var:chancellor_domestic_affairs_opinion_value > root.chancellor_domestic_affairs_opinion_max
+						}
+						set_variable = {
+							name = chancellor_domestic_affairs_opinion_value
+							value = root.chancellor_domestic_affairs_opinion_max
+						}
+					}
+				}	
+			}
+			else = {
+				liege = {
+					set_variable = {
+						name = chancellor_domestic_affairs_opinion_value
+						value = 0
+					}
+				}
+			}
+		}
+		liege = {
+			if = {
+				limit = {
+					has_character_flag = no_chancellor_side_effects_first_month
+				}
+				remove_character_flag = no_chancellor_side_effects_first_month
+			}
+			else = {
+				#Side effects
+				trigger_event = {
+					on_action = task_domestic_affairs_side_effects
+					days = { 1 30 }
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+		if = { # Do this if you have a faction against you, every little bit helps
+			limit = {
+				scope:councillor_liege = {
+					any_targeting_faction = {
+						OR = {
+							faction_is_type = independence_faction
+							faction_is_type = liberty_faction
+							faction_is_type = claimant_faction
+						}
+					}
+				}
+			}
+			add = 1000
+		}
+	}
+}
+
+task_tongpingzhang_2 = {
+	position = councillor_tongpingzhang
+
+	task_type = task_type_county
+	county_target = realm
+	ai_county_target = realm
+	task_progress = task_progress_percentage
+	restart_on_finish = yes
+	highlight_own_realm = yes
+	
+	effect_desc = {
+		desc = task_promote_culture_effect_desc
+		desc = {
+			desc = council_task_possible_side_effects
+			triggered_desc = {
+				trigger = {
+					learning > mediocre_skill_rating
+					trigger_if = {
+						limit = { exists = scope:county }
+						scope:county = {
+							NOT = { has_county_modifier = steward_task_efficient_taxation_modifier }
+						}
+					}
+				}
+				desc = task_promote_culture_improve_county_opinion
+			}
+			triggered_desc = {
+				trigger = {
+					learning > mediocre_skill_rating
+					trigger_if = {
+						limit = { exists = scope:county }
+						scope:county = {
+							NOT = { has_county_modifier = steward_task_efficient_taxation_modifier }
+						}
+					}
+				}
+				desc = task_promote_culture_increased_taxes
+			}
+			triggered_desc = {
+				trigger = {
+					learning > mediocre_skill_rating
+					trigger_if = {
+						limit = { exists = scope:county }
+						scope:county = {
+							NOT = { has_county_modifier = steward_task_efficient_taxation_modifier }
+						}
+					}
+				}
+				desc = task_promote_culture_increased_levies
+			}
+			triggered_desc = {
+				trigger = {
+					learning < high_skill_rating
+					trigger_if = {
+						limit = { exists = scope:county }
+						scope:county = {
+							NOT = { has_county_modifier = steward_settler_resistance_modifier }
+						}
+					}
+				}
+				desc = task_promote_culture_resistance_to_settlers
+			}
+			triggered_desc = {
+				trigger = {
+					learning < high_skill_rating
+					trigger_if = {
+						limit = { exists = scope:county }
+						scope:county = {
+							NOT = { has_county_modifier = steward_settler_resistance_modifier }
+						}
+					}
+				}
+				desc = task_promote_culture_resistance_to_administration
+			}
+		}
+	}
+
+	progress = {
+		value = 0
+		add = {
+			value = steward_promote_culture_base
+			desc = STEWARD_PROGRESS_BASE
+		}
+		add = {
+			value = scope:councillor.steward_promote_culture_monthly_increase
+			desc = SCALED_COUNCILLOR_STEWARDSHIP_VALUE
+		}
+		# Relation Bonuses/Penalties
+		if = { # Friend
+			limit = {
+				scope:councillor_liege = {
+					has_relation_friend = scope:councillor
+					NOT = { has_relation_best_friend = scope:councillor }
+				}
+			}
+			add = {
+				value = scope:councillor.steward_promote_culture_monthly_increase_friend_bonus
+				desc = COUNCILLOR_IS_YOUR_FRIEND
+			}
+		}
+		if = { # Best Friend
+			limit = {
+				scope:councillor_liege = {
+					has_relation_best_friend = scope:councillor
+				}
+			}
+			add = {
+				value = scope:councillor.steward_promote_culture_monthly_increase_best_friend_bonus
+				desc = COUNCILLOR_IS_YOUR_BEST_FRIEND
+			}
+		}
+		if = { # Rival
+			limit = {
+				scope:councillor_liege = {
+					has_relation_rival = scope:councillor
+					NOT = { has_relation_nemesis = scope:councillor }
+				}
+			}
+			add = {
+				value = scope:councillor.steward_promote_culture_monthly_increase_rival_bonus
+				desc = COUNCILLOR_IS_YOUR_RIVAL
+			}
+		}
+		if = { # Nemesis
+			limit = {
+				scope:councillor_liege = {
+					has_relation_nemesis = scope:councillor
+				}
+			}
+			add = {
+				value = scope:councillor.steward_promote_culture_monthly_increase_nemesis_bonus
+				desc = COUNCILLOR_IS_YOUR_NEMESIS
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:councillor_liege.dynasty
+				scope:councillor_liege.dynasty = { has_dynasty_perk = erudition_legacy_5 }
+			}
+			add = {
+				value = steward_promote_culture_erudition_bonus
+				desc = ERUDITION_DYNASTY_PERK_BONUS_VALUE
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:county
+				scope:councillor_liege.faith = {
+					has_doctrine_parameter = same_faith_promote_culture_bonus_active
+				}
+				scope:county.faith = scope:councillor_liege.faith
+			}
+			add = {
+				value = scope:councillor.promote_culture_communal_identity_bonus
+				desc = STEWARD_PROMOTE_CULTURE_COMMUNAL_IDENTITY_BONUS_MODIFIER
+			}
+		}
+		if = {
+			limit = {
+				scope:councillor_liege.culture = {
+					has_innovation = innovation_east_settling
+				}
+			}
+			add = {
+				value = scope:councillor.promote_culture_east_settling_bonus
+				desc = STEWARD_PROMOTE_CULTURE_INNOVATION_BONUS_EAST_SETTLING
+			}
+		}
+		if = { # Development reduces the speed.
+			limit = {
+				exists = scope:county
+				scope:county = {
+					development_level > 0
+				}
+			}
+			add = {
+				value = scope:county.promote_culture_development_penalty
+				desc = STEWARD_PROMOTE_CULTURE_DEVELOPMENT_PENALTY
+			}
+		}
+		#Reduce for various county modifiers.
+		if = { #Reduced conversion speed if the county has protected traditions.
+			limit = {
+				exists = scope:county
+				scope:county = {
+					has_county_modifier = governance_1073_conversion_resistance_modifier
+				}
+			}
+			add = {
+				value = scope:councillor.promote_culture_local_traditions_respected_penalty
+				desc = STEWARD_PROMOTE_CULTURE_LOCAL_TRADITIONS_RESPECTED
+			}
+		}
+		if = {
+			limit  = {
+				exists = scope:county
+				scope:county = {
+					has_county_modifier = county_shuubiyya_modifier
+				}
+			}
+			add = {
+				value = scope:councillor.promote_culture_shuubiyya_penalty
+				desc = STEWARD_PROMOTE_CULTURE_SHUUBIYYA
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					scope:councillor_liege.culture_group = culture_group:goidelic_group
+					scope:councillor_liege.culture_group = culture_group:brythonic_group
+				}
+				exists = scope:county
+				scope:county = {
+					has_county_modifier = reclaim_britannia_culture_modifier
+					NOR= {
+						culture_group = culture_group:goidelic_group
+						culture_group = culture_group:brythonic_group
+					}
+				}
+			}
+			add = {
+				value = promote_culture_reclaimed_brittania_bonus
+				desc = STEWARD_PROMOTE_CULTURE_RECLAIMING_BRITANNIA
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:county
+				scope:county = {
+					OR = {
+						has_county_modifier = enthusiastic_nomad_settlement_saharan_modifier
+						has_county_modifier = nomad_settlement_saharan_modifier
+					}
+				}
+			}
+			add = {
+				value = scope:councillor.promote_culture_allowed_nomad_settlement_penalty
+				desc = STEWARD_PROMOTE_CULTURE_ALLOWED_NOMAD_SETTLEMENT
+			}
+		}
+		
+		# Conversion speed game rules
+		if = {
+			limit = {
+				has_game_rule = slower_culture_conversion_speed
+			}
+			multiply = {
+				value = slower_game_rule_value
+				desc = GAME_RULE_SLOWER_REASON
+			}
+		}
+		if = {
+			limit = {
+				has_game_rule = significantly_slower_culture_conversion_speed
+			}
+			multiply = {
+				value = significantly_slower_game_rule_value
+				desc = GAME_RULE_SIGNIFICANTLY_SLOWER_REASON
+			}
+		}
+		if = {
+			limit = {
+				has_game_rule = significantly_faster_culture_conversion_speed
+			}
+			multiply = {
+				value = significantly_faster_game_rule_value
+				desc = GAME_RULE_SIGNIFICANTLY_FASTER_REASON
+			}
+		}
+		if = {
+			limit = {
+				has_game_rule = faster_culture_conversion_speed
+			}
+			multiply = {
+				value = faster_game_rule_value
+				desc = GAME_RULE_FASTER_REASON
+			}
+		}
+	}
+
+	potential_county = {
+		scope:county = {
+			NOT = { culture = scope:councillor_liege.culture }
+		}
+		trigger_if = {
+			limit = {
+				scope:councillor_liege = { is_ai = yes }
+			}
+			OR = {
+				is_independent_ruler = yes
+				scope:councillor_liege.primary_title.tier > tier_county
+				AND = {
+					scope:councillor_liege.culture = culture:scottish
+					OR = {
+						scope:county.culture = culture:anglo_saxon
+						scope:county.culture = culture:gaelic
+						scope:county.culture = culture:cumbrian
+						scope:county.culture = culture:pictish
+					}
+				}
+				AND = {
+					scope:councillor_liege.culture = culture:english
+					OR = {
+						scope:county.culture = culture:anglo_saxon
+						scope:county.culture = culture:norman
+					}
+				}
+			}
+			OR = {
+				scope:county = {
+					any_neighboring_county = {
+						culture = scope:councillor_liege.culture # The AI only wants to convert counties bordering their own culture
+					}
+				}
+				
+				AND = {
+					NOT = {
+						scope:county = {
+							any_neighboring_county = {
+								culture = scope:councillor_liege.culture # The AI only wants to convert counties bordering their own culture
+							}
+						}
+					}
+					OR = {
+						# Unless they're a nomadic culture converting in the steppe or Asia Minor...
+						AND = {
+							OR = {
+								scope:councillor_liege.culture_group = culture_group:mongolic_group
+								scope:councillor_liege.culture_group = culture_group:turkic_group
+							}
+							scope:county.title_province = {
+								OR = {
+									geographical_region = world_asia_minor
+									geographical_region = world_steppe
+								}
+							}
+						}
+						AND = { # The English want to convert the Anglo Saxons and Cumbrians
+							scope:councillor_liege.culture = culture:english
+							OR = {
+								scope:county.culture = culture:anglo_saxon
+								scope:county.culture = culture:cumbrian
+							}
+						}
+						AND = { # The Scots want to convert the Anglo Saxons, Cumbrians and Gaelic
+							scope:councillor_liege.culture = culture:scottish
+							OR = {
+								scope:county.culture = culture:anglo_saxon
+								scope:county.culture = culture:gaelic
+								scope:county.culture = culture:cumbrian
+								scope:county.culture = culture:pictish
+							}
+						}
+						AND = { # The Gaels want to convert the Picts and Cumbrians
+							scope:councillor_liege.culture = culture:gaelic
+							OR = {
+								scope:county.culture = culture:cumbrian
+								scope:county.culture = culture:pictish
+							}
+						}
+						AND = { # The modern scandinavians want to convert the Norse
+							OR = {
+								scope:councillor_liege.culture = culture:swedish
+								scope:councillor_liege.culture = culture:danish
+								scope:councillor_liege.culture = culture:norwegian
+							}
+							scope:county.culture = culture:norse
+						}
+						AND = { # The vikings want to culture convert the Brits
+							OR = {
+								scope:councillor_liege.culture = culture:norse
+								scope:councillor_liege.culture = culture:norwegian
+							}
+							scope:county = {
+								any_county_province = {
+									is_coastal = yes
+								}
+							}
+							OR = {
+								scope:county.culture_group = culture_group:west_germanic_group
+								scope:county.culture_group = culture_group:goidelic_group
+								scope:county.culture_group = culture_group:brythonic_group
+							}
+						}
+						AND = { # The Portuguese should want to convert Suebi
+							scope:councillor_liege.culture = culture:portuguese
+							scope:county.culture = culture:suebi
+						}
+						AND = { # The Iberians want to convert Visigothic
+							scope:councillor_liege.culture_group = culture_group:iberian_group
+							NOT = { scope:councillor_liege.culture = culture:portuguese }
+							scope:county.culture = culture:visigothic
+						}
+					}
+				}
+			}
+		}
+	}
+
+	on_finish_task_county = {
+		scope:county = {
+			set_county_culture = scope:councillor_liege.culture
+		}
+		scope:councillor = {
+			start_default_task = yes
+		}
+		scope:councillor_liege = {
+			if = {
+				limit = {
+					is_independent_ruler = no
+				}
+				add_character_flag = {
+					flag = no_ai_culture_convert
+					years = 50
+				}
+			}
+			else = {
+				add_character_flag = {
+					flag = no_ai_culture_convert
+					years = 20
+				}
+			}
+		}
+	}
+
+	on_start_task = {
+		liege = {
+			add_character_flag = {
+				flag = no_steward_side_effects_first_month
+				days = 30
+			}
+		}
+	}
+
+	on_monthly_county = {
+		scope:councillor_liege = {
+			if = {
+				limit = {
+					has_character_flag = no_steward_side_effects_first_month
+				}
+				remove_character_flag = no_steward_side_effects_first_month
+			}
+			else = {
+				trigger_event = {
+					on_action = task_promote_culture_side_effects
+					days = { 1 30 }
+				}
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+		if = {
+			limit = {
+				scope:councillor = {
+					is_performing_council_task = task_promote_culture
+				}
+			}
+			add = 10000 # Always keep going if this is already chosen
+		}
+		else_if = {
+			limit = {
+				scope:councillor_liege.culture = culture:outremer
+				scope:councillor_liege = {
+					gold >= steward_convert_culture_value
+				}
+			}
+			add = 500
+		}
+		else_if = {
+			limit = {
+				scope:councillor_liege = {
+					gold >= steward_convert_culture_value
+				}
+			}
+			add = 200
+		}
+		if = {
+			# The Czechs are welcome in the HRE
+			limit = {
+				OR = {
+					scope:councillor_liege.culture = culture:czech
+					scope:councillor_liege.culture_group = culture_group:central_germanic_group
+				}
+				OR = {
+					scope:councillor_liege.culture = culture:czech
+					scope:councillor_liege.culture_group = culture_group:central_germanic_group
+				}
+			}
+			multiply = 0
+		}
+		if = {
+			# Don't do this too often
+			limit = {
+				scope:councillor_liege = { has_character_flag = no_ai_culture_convert }
+			}
+			multiply = 0
+		}
+		if = {
+			# Interrupt this task if you're bankrupt
+			limit = {
+				scope:councillor_liege = {
+					gold < -50
+				}
+			}
+			multiply = 0
+		}
+	}
+}
+
+task_tongpingzhang_3 = {
+	position = councillor_tongpingzhang
+
+	task_type = task_type_county
+	county_target = all
+	ai_county_target = neighbor_land
+	task_progress = task_progress_percentage
+	restart_on_finish = yes
+
+	effect_desc = {
+		desc = task_fabricate_claim_effect_desc
+
+		desc = {
+			desc = council_task_possible_side_effects
+			triggered_desc = {
+				trigger = {
+					learning > mediocre_skill_rating
+				}
+				desc = task_fabricate_claim_duchy_claim
+			}
+			triggered_desc = {
+				trigger = {
+					learning < high_skill_rating
+				}
+				desc = task_fabricate_claim_vassal_opinion_loss
+			}
+			triggered_desc = {
+				trigger = {
+					learning < high_skill_rating
+				}
+				desc = task_fabricate_claim_piety_loss
+			}
+			triggered_desc = {
+				trigger = {
+					learning < high_skill_rating
+				}
+				desc = task_fabricate_claim_upset_target
+			}
+		}
+	}
+
+	progress = {
+		value = 0
+		add = {
+			value = court_chaplain_fabricate_claim_base
+			desc = COURT_CHAPLAIN_PROGRESS_BASE
+		}
+		add = {
+			value = scope:councillor.court_chaplain_fabricate_claim_monthly_increase_base
+			desc = SCALED_COUNCILLOR_LEARNING_VALUE
+		}
+		# Relation Bonuses/Penalties
+		if = { # Friend
+			limit = {
+				scope:councillor_liege = {
+					has_relation_friend = scope:councillor
+					NOT = { has_relation_best_friend = scope:councillor }
+				}
+			}
+			add = {
+				value = scope:councillor.court_chaplain_fabricate_claim_monthly_increase_friend_bonus
+				desc = COUNCILLOR_IS_YOUR_FRIEND
+			}
+		}
+		if = { # Best Friend
+			limit = {
+				scope:councillor_liege = {
+					has_relation_best_friend = scope:councillor
+				}
+			}
+			add = {
+				value = scope:councillor.court_chaplain_fabricate_claim_monthly_increase_best_friend_bonus
+				desc = COUNCILLOR_IS_YOUR_BEST_FRIEND
+			}
+		}
+		if = { # Rival
+			limit = {
+				scope:councillor_liege = {
+					has_relation_rival = scope:councillor
+					NOT = { has_relation_nemesis = scope:councillor }
+				}
+			}
+			add = {
+				value = scope:councillor.court_chaplain_fabricate_claim_monthly_increase_rival_bonus
+				desc = COUNCILLOR_IS_YOUR_RIVAL
+			}
+		}
+		if = { # Nemesis
+			limit = {
+				scope:councillor_liege = {
+					has_relation_nemesis = scope:councillor
+				}
+			}
+			add = {
+				value = scope:councillor.court_chaplain_fabricate_claim_monthly_increase_nemesis_bonus
+				desc = COUNCILLOR_IS_YOUR_NEMESIS
+			}
+		}
+		# Perk Bonuses
+		if = {
+			limit = {
+				scope:councillor_liege = { has_perk = accomplished_forger_perk }
+			}
+			add = {
+				value = scope:councillor.court_chaplain_fabricate_claim_perk_bonus_monthly_increase
+				desc = FABRICATE_CLAIM_PERK_BONUS_VALUE
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:councillor_liege.dynasty
+				scope:councillor_liege.dynasty = { has_dynasty_perk = erudition_legacy_5 }
+			}
+			add = {
+				value = scope:councillor.court_chaplain_fabricate_claim_dynasty_perk_bonus
+				desc = FABRICATE_CLAIM_DYNASTY_PERK_BONUS_VALUE
+			}
+		}
+
+		# Innovation Bonuses
+		if = {
+			limit = {
+				scope:councillor.liege = {
+					culture = {
+						has_innovation = innovation_land_grants
+					}
+				}
+			}
+			add = {
+				value = scope:councillor.court_chaplain_fabricate_claim_innovation_bonus_land_grants
+				desc = COURT_CHAPLAIN_FABRICATE_CLAIM_INNOVATION_BONUS_LAND_GRANTS
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:county
+				NOT = {
+					scope:county.holder.faith = scope:councillor.liege.faith
+				}
+			}
+			multiply = {
+				value = scope:councillor.court_chaplain_heretic_bonus
+				desc = "COURT_CHAPLAIN_FABRICATE_CLAIM_HERETIC_BONUS"
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:county
+				NOT = {
+					scope:county = {
+						is_neighbor_to_realm = scope:councillor_liege
+					}
+				}
+			}
+			multiply = {
+				value = scope:councillor.court_chaplain_fabricate_claim_not_adjacent_penalty
+				desc = "COURT_CHAPLAIN_FABRICATE_CLAIM_NOT_ADJACENT"
+			}
+		}
+		if = { #Progress penalty when fabricating on vassals
+			limit = {
+					exists = scope:county
+					scope:county.holder = {
+						target_is_liege_or_above = scope:councillor.liege 
+				}
+			}
+			multiply = {
+				value = scope:councillor.court_chaplain_fabricate_claim_vassal_penalty
+				desc = "COURT_CHAPLAIN_FABRICATE_CLAIM_VASSAL_COUNTY"
+			}
+		}
+	}
+
+	potential_county = {
+		scope:county.holder.top_liege = {
+			in_diplomatic_range = scope:councillor_liege
+		}
+		scope:county = {
+			NOR = {
+				holder = scope:councillor_liege
+				scope:councillor_liege = {
+					has_claim_on = scope:county
+				}
+			}
+		}
+	}
+
+	on_finish_task_county = {
+		scope:county = {
+			holder = {
+				save_scope_as = county_holder
+			}
+		}
+		scope:councillor_liege = {
+			trigger_event = {
+				on_action = task_fabricate_claim_success_effect
+			}
+		}
+	}
+
+	on_start_task = {
+		liege = {
+			add_character_flag = {
+				flag = no_court_chaplain_side_effects_first_month
+				days = 30
+			}
+		}
+	}
+
+	council_owner_modifier = {
+		name = task_advisor_chengxiangl_modifier
+		learning = 1
+		#monthly_income = -5
+	}
+
+	on_monthly_county = {
+		scope:councillor_liege = {
+			if = {
+				limit = {
+					has_character_flag = no_court_chaplain_side_effects_first_month
+				}
+			}
+			else = {
+				trigger_event = {
+					on_action = task_fabricate_claim_side_effects
+					days = { 1 30 }
+				}
+			}
+		}
+	}
+
+	ai_target_score = {
+		value = 1000
+		
+		if = {
+			limit = { # Vassals in the same realm
+				scope:councillor_liege = {
+					is_independent_ruler = no
+				}
+				scope:county.holder = {
+					is_independent_ruler = no
+				}
+				scope:county.holder.top_liege = scope:councillor_liege.top_liege
+			}
+			
+			if = {
+				limit = {
+					exists = scope:county.holder.liege
+					scope:councillor_liege = {
+						any_liege_or_above = {
+							this = scope:county.holder.liege
+						}
+					}
+					scope:county.holder.max_military_strength > {
+						value = scope:councillor_liege.max_military_strength
+						multiply = 1.2
+					}
+				}
+				subtract = 10000
+			}
+			else_if = {
+				limit = {
+					exists = scope:county.holder.liege
+					scope:councillor_liege = {
+						any_liege_or_above = {
+							this = scope:county.holder.liege
+						}
+					}
+				}
+				multiply = {
+					value = scope:councillor_liege.max_military_strength
+					divide = { value = scope:county.holder.max_military_strength min = 1 }
+				}
+			}
+			
+			else_if = {
+				limit = {
+					exists = scope:county.holder.liege.liege
+					scope:councillor_liege = {
+						any_liege_or_above = {
+							this = scope:county.holder.liege.liege
+						}
+					}
+					scope:county.holder.liege.max_military_strength > {
+						value = scope:councillor_liege.max_military_strength
+						multiply = 1.2
+					}
+				}
+				subtract = 10000
+			}
+			else_if = {
+				limit = {
+					exists = scope:county.holder.liege.liege
+					scope:councillor_liege = {
+						any_liege_or_above = {
+							this = scope:county.holder.liege.liege
+						}
+					}
+				}
+				multiply = {
+					value = scope:councillor_liege.max_military_strength
+					divide = { value = scope:county.holder.liege.max_military_strength min = 1 }
+				}
+			}
+			
+			else_if = {
+				limit = {
+					exists = scope:county.holder.liege.liege.liege
+					scope:councillor_liege = {
+						any_liege_or_above = {
+							this = scope:county.holder.liege.liege.liege
+						}
+					}
+					scope:county.holder.liege.liege.max_military_strength > {
+						value = scope:councillor_liege.max_military_strength
+						multiply = 1.2
+					}
+				}
+				subtract = 10000
+			}
+			else_if = {
+				limit = {
+					exists = scope:county.holder.liege.liege.liege
+					scope:councillor_liege = {
+						any_liege_or_above = {
+							this = scope:county.holder.liege.liege.liege
+						}
+					}
+				}
+				multiply = {
+					value = scope:councillor_liege.max_military_strength
+					divide = { value = scope:county.holder.liege.liege.max_military_strength min = 1 }
+				}
+			}
+			
+			else_if = {
+				limit = {
+					exists = scope:county.holder.liege.liege.liege.liege
+					scope:councillor_liege = {
+						any_liege_or_above = {
+							this = scope:county.holder.liege.liege.liege.liege
+						}
+					}
+					scope:county.holder.liege.liege.liege.max_military_strength > {
+						value = scope:councillor_liege.max_military_strength
+						multiply = 1.2
+					}
+				}
+				subtract = 10000
+			}
+			else_if = {
+				limit = {
+					exists = scope:county.holder.liege.liege.liege.liege
+					scope:councillor_liege = {
+						any_liege_or_above = {
+							this = scope:county.holder.liege.liege.liege.liege
+						}
+					}
+				}
+				multiply = {
+					value = scope:councillor_liege.max_military_strength
+					divide = { value = scope:county.holder.liege.liege.liege.max_military_strength min = 1 }
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				scope:county.holder.top_liege.max_military_strength > {
+					value = scope:councillor_liege.max_military_strength
+					multiply = 1.2
+				}
+			}
+			subtract = 10000
+		}
+		else = {	
+			multiply = {
+				value = scope:councillor_liege.max_military_strength
+				divide = { value = scope:county.holder.top_liege.max_military_strength min = 1 }
+			}
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+		if = {
+			limit = {
+				scope:councillor = {
+					is_performing_council_task = task_fabricate_claim
+				}
+			}
+			add = 10000 # Always keep going if this is already chosen
+		}
+		else_if = {
+			limit = {
+				OR = {
+					ai_greed <= ai_honor
+					ai_greed <= 0
+					is_at_war = yes
+					gold < 100
+				}
+			}
+			subtract = 1000
+		}
+		else_if = { # If AI has good war, don't fabricate
+			limit = {
+				any_neighboring_and_across_water_top_liege_realm_owner = {
+					scope:councillor_liege = {
+						tier_difference = {
+							target = prev
+							value >= -1
+						}
+						NOR = {
+							is_allied_to = prev
+							has_truce = prev
+						}
+						has_any_cb_on = prev
+					}			
+				}
+			}
+			subtract = 1000
+		}
+		else = {
+			add = 100
+		}
+	}
+} 

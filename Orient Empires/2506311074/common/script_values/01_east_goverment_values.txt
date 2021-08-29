@@ -1,59 +1,61 @@
-﻿
+﻿###################
+# GOVERNMENT VALUES  #
+###################
+
+#imperial government values
+imperial_government_levies_default = 0.2
+imperial_government_levies_min_ca_1 = -0.25
+imperial_government_levies_min_ca_2 = -0.15
+imperial_government_levies_min_ca_3 = -0.05
+
+imperial_government_tax_default = 0.2
+imperial_government_tax_min_ca_1 = -0.1
+imperial_government_tax_min_ca_2 = -0.05
+imperial_government_tax_min_ca_3 = -0.025
 
 
+#corps government values
+corps_government_levies_default = 0.2
+corps_government_levies_player = 0.15
+corps_government_levies_opinion_scale_positive = 0.0035
+corps_government_levies_opinion_scale_negative = 0.004
+corps_government_levies_min_ca_1 = 0.05
+corps_government_levies_min_ca_2 = 0.15
+corps_government_levies_min_ca_3 = 0.25
+
+corps_government_tax_default = 0.2
+corps_government_tax_player = 0.05
+corps_government_tax_opinion_scale_positive = 0.001
+corps_government_tax_opinion_scale_negative = 0.005
+corps_government_tax_min_ca_1 = 0.025
+corps_government_tax_min_ca_2 = 0.05
+corps_government_tax_min_ca_3 = 0.1
+
+corps_government_tax_max_possible = {
+	value = corps_government_tax_default
+	add = {
+		value = corps_government_tax_opinion_scale_positive
+		multiply = 100
+	}
+}
+corps_government_levies_max_possible = {
+	value = corps_government_levies_default
+	add = {
+		value = corps_government_levies_opinion_scale_positive
+		multiply = 100
+	}
+}
 
 
+bureau_government_tax_default = 0.5
+bureau_government_tax_player = 0.0
 
+bureau_government_levies_default = 0.2
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+bureau_government_tax_default = {
+	value = bureau_government_tax_default
+		multiply = 1
+}
+lifestyle_perk_points = {
+	value = perk_points_assigned
+}
